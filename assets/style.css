@@ -1,19 +1,14 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color: #f0f0f0;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
 #app-container {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #46dbc3;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -48,20 +43,22 @@ body {
 
 #recent-searches {
     margin-top: 20px;
-    border: solid #f37a7a 1px;
+    border: solid #0004ff 1px;
     border-radius: 5px;
     padding: 10px;
-    background-color: #f5f5f5;
+    background-color: #80fcc2;
 }
 
 #current-weather-card-container {
-
-border: solid #80ceea 2px;
-margin-top: 25px;
-margin-bottom: 15px;
-padding: 15px;
-background-color: #d4e5f1;
-
+    border: solid #0004ff 2px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #80fcc2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 .weather-card {
     display: flex;
@@ -80,8 +77,12 @@ background-color: #d4e5f1;
 }
 
 #forecast-heading {
-    margin-left:28%;
+    text-align: center; /* Center the text horizontally */
     margin-top: 30px;
-    
-    
+}
+
+#weather-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
 }
