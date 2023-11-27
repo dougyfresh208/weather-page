@@ -118,8 +118,7 @@ function populateCurrentWeatherCard(currentWeather, city) {
         <p>Temperature: ${Math.round(currentWeather.temp)}&deg;F</p>
         <p>Wind Speed: ${Math.round(currentWeather.wind_speed)} mph</p>
         <p>Humidity: ${currentWeather.humidity}%</p>
-        <p>Chance of Precip: ${5 * Math.round(currentWeather.pop / 5)}%</p>
-        <p>Chance of Precip: ${(Math.ceil(currentWeather.pop * 100 / 10) * 10)}%</p>
+        <p>Precipitation: ${(Math.ceil(currentWeather.pop * 100 / 10) * 10)}%</p>
     `;
 
     currentWeatherCardContainer.appendChild(card);
@@ -154,7 +153,7 @@ function populateWeatherCards(data) {
             <p>High: ${Math.round(day.temp_max)}&deg;F</p>
             <p>Wind Speed: ${Math.round(day.wind_speed)} mph</p>
             <p>Humidity: ${day.humidity}%</p>
-            <p>Chance of Precip: ${(Math.ceil(day.pop * 100 / 10) * 10)}%</p>
+            <p>Precipitation: ${(Math.ceil(day.pop * 100 / 10) * 10)}%</p>
            
         `;
 
