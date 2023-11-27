@@ -39,7 +39,7 @@ body {
 
 #search-btn {
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #80fcc2;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -48,7 +48,7 @@ body {
 
 #recent-searches {
     margin-top: 20px;
-    border: solid #4caf50 1px;
+    border: solid #f37a7a 1px;
     border-radius: 5px;
     padding: 10px;
     background-color: #f5f5f5;
@@ -56,7 +56,7 @@ body {
 
 #current-weather-card-container {
 
-border: solid #4caf50 2px;
+border: solid #80ceea 2px;
 margin-top: 25px;
 margin-bottom: 15px;
 padding: 15px;
@@ -68,7 +68,7 @@ background-color: #d4e5f1;
     flex-direction: column;
     align-items: center;
     background-color: #f5f5f5;
-    border: 1px solid #4caf50;
+    border: 1px solid #80ceea;
     border-radius: 8px;
     padding: 15px;
     margin: 10px;
